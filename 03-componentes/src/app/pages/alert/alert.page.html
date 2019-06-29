@@ -1,0 +1,17 @@
+<app-header [titulo]= "titulo || 'Alert Page'"></app-header>
+<!--  -->
+
+<ion-content padding>
+
+  <ion-button expand="full" 
+              color="primary"
+              (click)="presentAlert()">
+    Mostar Alert
+  </ion-button>
+
+  <ion-button expand="full" 
+              color="primary"
+              (click)="presentInput()">
+    Cambiar titulo
+  </ion-button>
+</ion-content>

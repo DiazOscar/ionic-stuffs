@@ -1,0 +1,54 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Buttons</ion-title>
+    <ion-buttons slot="end">
+
+      <ion-button color="success">
+        <ion-icon name="heart"></ion-icon>
+      </ion-button>
+  
+      <ion-button color="success">
+        <ion-icon name="star"></ion-icon>
+      </ion-button>
+      
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- Botones normales-->
+  <ion-button size="small" expand="full">Small</ion-button>
+  <ion-button size="default" expand="full">Default</ion-button>
+  <ion-button size="large" expand="full">Large</ion-button>
+  
+  <!-- Anchor -->
+  <ion-button class="top-20" expand="full" routerLink="/alert" color="warning">
+    Anchor
+  </ion-button>
+
+  <!-- Ion-row + ion-col-->
+  <ion-row class="top-20">
+    <ion-col>
+      <ion-button expand="full" routerLink="/avatar" color="tertiary">
+        Green Gang 4 Ever
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button expand="full" routerLink="/action-sheet" color="tertiary">
+        Love bros
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+  <!-- Fill -->
+  <ion-buttons class="top-20">
+    <ion-button fill="clear">Clear</ion-button>
+    <ion-button fill="outline">OutLine</ion-button>
+    <ion-button fill="solid">Solid</ion-button>
+  </ion-buttons>
+  
+
+</ion-content>

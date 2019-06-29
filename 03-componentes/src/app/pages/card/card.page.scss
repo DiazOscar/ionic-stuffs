@@ -1,0 +1,22 @@
+.fondo{
+    background-image: url("/assets/backgroundbuds.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.letraBlanca{
+    color: yellow;
+}
+
+.letraVerde{
+    color: greenyellow;
+}
+
+$colors: (
+   blue:    #387ef5,
+   secondary:  #32db64,
+   danger:     #f53d3d,
+   light:      #f4f4f4,  
+   dark:          #222 
+);

@@ -1,0 +1,49 @@
+<app-header titulo="Card">
+
+</app-header>
+
+<ion-content>
+
+    <ion-card mode="ios" color="success">
+        <ion-card-header>
+          <ion-card-title>Card Title</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit clean.
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-item color="primary">
+          <ion-icon color="warning" slot="start" name="pin"></ion-icon>
+          <ion-label>Marcador</ion-label>
+        </ion-item>
+
+        <ion-card-content>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit blanditiis, velit eius, quae repellendus quas nihil nam rem dolore qui excepturi ab libero iste nobis error mollitia? Voluptate, animi perferendis? 
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card class="fondo">
+        <ion-card-header translucent = true;>
+          <ion-toolbar>              
+              <ion-card-title class="letraBlanca">FAKE SMOKER</ion-card-title>
+              <ion-card-subtitle class="letraVerde">no tobacco</ion-card-subtitle>
+              <ion-avatar slot="end">
+                  <img src="/assets/happyfella.jpg">
+              </ion-avatar>
+          </ion-toolbar>
+        </ion-card-header>    
+
+        <ion-card-content>
+          <h1 class="letraBlanca">No te emparanolles lowsSugar</h1>
+          <ion-button expand="full" 
+              color="success"
+              (click)="presentAlert()">
+             SMOKER
+          </ion-button>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
